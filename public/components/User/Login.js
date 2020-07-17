@@ -20,7 +20,7 @@ class Login extends React.Component {
         //     const input = form.elements[name];
         // }
 
-        await fetch('/api', {
+        await fetch('/login', {
             method: 'POST',
             body: data
         });

@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="components/Admin/Dashboard.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/Home.css">
+    <!-- <link rel="stylesheet" href="css/Admin/Dashboard.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 <body>  
     <div id="root"></div>
         
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js" ></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" ></script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- <script src="https://unpkg.com/react-router@3.0.0/umd/ReactRouter.js"></script> -->
+    <!-- <script crossorigin src="https://unpkg.com/react-router-dom@4.2.2/umd/react-router-dom.js"></script> -->
+    <script src='https://unpkg.com/react-router@5.0.0/umd/react-router.min.js'></script>
+    <script src='https://unpkg.com/react-router-dom@5.0.0/umd/react-router-dom.min.js'></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js" integrity="sha512-pBSlhNUvB+td6sjW1zmR6L7c7kVWR4octUPl4tfHmzO63424nxta8aLmficEcAAswQmRqTiToi63AazDurj/Sg==" crossorigin="anonymous" ></script>
     <script type="text/babel" src="./components/User/Login.js"></script>
     <script type="text/babel" src="./components/Admin/Dashboard.js"></script>
+    <script type="text/babel" src="./components/Home.js"></script>
+
     <script type="text/babel" src="./App.js" ></script>
     <script type="text/babel" src="./index.js" ></script>
+
+
+    <!-- <script>
+        const ws = new WebSocket("ws://127.0.0.1:8000/ws")
+        ws.onopen = function () {
+            ws.send('OAK is working!')
+        }
+    </script> -->
 </body>
 </html>

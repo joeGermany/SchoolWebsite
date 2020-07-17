@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.actions {
+    width: 90%;
+    margin: auto;
+}
+
+.actionsNavbar {
+    font-size: 14px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* border: 1px solid #e7e7e7; */
+    background-color: #fff;
+}
+
+.actionsNavbar > li:not(.navDivider) {
+    color: #8797ae;
+}
+
+.actionsNavbar .navbarDivider {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.actionsNavbarLeft {
+    float: left;
+}
+
+.actionsNavbarRight {
+    float: right;
+}
+
+.actionsNavbar li a:not(.navbarDivider) {
+    display: block;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+.actionsNavbar li a:hover:not(.active) {
+    background-color: #ddd;
+}
+  
+.actionsNavbar li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.stickyNavbar {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.stickyNavbar li {
+    float: left;
+}
+
+.stickyNavbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.stickyNavbar li a:hover {
+    color: #111;
+}
+
+.stickyNavbarActive {
+    color: orange;
+}
+
+
+/* Dropdown Button */
+.dropdown-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    /* display: none; */
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-button:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown-button:hover {background-color: #3e8e41;}

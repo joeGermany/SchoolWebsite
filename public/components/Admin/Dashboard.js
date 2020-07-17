@@ -1,5 +1,7 @@
 // @ts-nocheck
 
+// let Link = ReactRouter.Link;
+
 class AdminDashboard extends React.Component {
     constructor() {
         super();
@@ -22,6 +24,9 @@ class AdminDashboard extends React.Component {
                         <img src="1.png" className="profile_image" alt="" />
                         <h4>Jessica</h4>
                     </center>
+                    <Link to="/">
+                        <a>Login</a>
+                    </Link>
                     <a href="#"><i className="fas fa-desktop"></i><span>Dashboard</span></a>
                     <a href="#"><i className="fas fa-cogs"></i><span>Components</span></a>
                     <a href="#"><i className="fas fa-table"></i><span>Tables</span></a>
